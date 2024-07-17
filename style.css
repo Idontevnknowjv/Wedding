@@ -342,7 +342,7 @@ body{
 .sakura {
 	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
-	background: red;
+	background: #7B4829;
 	pointer-events: none;
 	position: absolute
 }
@@ -632,22 +632,7 @@ a {
     list-style-type: none;
     padding-left: 0;
 }
-.godparents {
-    display: flex;
-    justify-content: space-around;
-}
 
-.godparents ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.ul1{
-	padding: 20px;
-}
-.ul2{
-	margin-left: 50px;
-}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
@@ -689,6 +674,9 @@ a {
     .section1 th {
         font-size: 18px;
     }
+	.ul2{
+		float: left;
+	}
 }
 
 
@@ -731,4 +719,7 @@ a {
     .section1 th {
         font-size: 16px;
     }
+	.ul2{
+		float: left;
+	}
 }
