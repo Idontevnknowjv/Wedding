@@ -607,15 +607,15 @@ a {
 }
 
 .section1 table {
-    width: 100%;
+	width: 80%; /* Adjust the width as necessary */
+    margin-left: 375px;
     border-collapse: collapse;
-    margin: 20px 0;
 }
 
 .section1 th, .section1 td {
     padding: 10px;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
 }
 
 .section1 th {
@@ -665,28 +665,31 @@ a {
     }
 	.godparents {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 	.section1 th, .section1 td {
-        padding: 8px;
+        padding: 4px;
     }
 
     .section1 th {
-        font-size: 18px;
+        font-size: 14px;
     }
-	.ul2{
-		float: left;
+	
+	.section1 table {
+		width: 80%; /* Adjust the width as necessary */
+		margin-right: 410px;
+		border-collapse: collapse;
 	}
 }
 
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .subtitle, .notice, .note, .colors-title {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .color {
@@ -696,30 +699,33 @@ a {
     }
 
     .section1 {
-        padding: 10px;
+        padding: 5px;
     }
 
     .section1 h2 {
-        font-size: 18px;
+        font-size: 14;
     }
 
     .section1 ul {
-        padding-left: 15px;
+        padding-left: 10px;
     }
 	
 	.godparents {
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 
 	.section1 th, .section1 td {
-        padding: 6px;
+        padding: 4px;
     }
 
     .section1 th {
-        font-size: 16px;
+        font-size: 14px;
     }
-	.ul2{
-		float: left;
+	
+	.section1 table {
+		width: 80%; /* Adjust the width as necessary */
+		margin-right: 410px;
+		border-collapse: collapse;
 	}
 }
