@@ -703,7 +703,10 @@ a {
 		margin-right: 410px;
 		border-collapse: collapse;
 	}
-}
+	.container1{
+		text-align: center;
+		margin-right: 100;
+	}
 
 
 @media (max-width: 480px) {
@@ -751,4 +754,9 @@ a {
 		margin-right: 410px;
 		border-collapse: collapse;
 	}
+	.container1{
+		text-align: center;
+		margin-right: 100px;
+	}
+}
 }
