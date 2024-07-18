@@ -490,10 +490,9 @@ body {
 }
 
 .venue {
-	width: 100px;
-	height: 50x;
+	width: 120px;
+	height: 66x;
 	background-color: #B67E4D;
-	
 	text-align: center;
 	color: #fff;
 	padding: 8px;
@@ -506,7 +505,7 @@ body {
 }
 .venue:hover{
 	border-radius: 10px;
-	width: 105px;
+	width: 125px;
 	color: #080403;
 }
 
