@@ -2,7 +2,7 @@ body{
 	background-color: #d8b990;
 	text-align: center;
 }
-
+/* 
 @-webkit-keyframes fall {
 	0% {
 		opacity: 0.9;
@@ -343,14 +343,14 @@ body{
 .sakura {
 	/* background: -webkit-linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));
     background: linear-gradient(120deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9));*/
-	background: #7B4829;
+	/* background: #7B4829;
 	pointer-events: none;
 	position: absolute
-}
-
+} */
+/* 
 .sakura {
 	background: #7B4829;
-}
+} */ */
 
 
 /*******************************/
@@ -363,12 +363,12 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-
+/* 
 @media (max-width:900px) {
 	img {
 		max-width: 30%;
 	}
-}
+} */
 
 .top-right-decoration {
 	position: absolute;
@@ -594,21 +594,17 @@ a {
 	letter-spacing: 0pt;
 }
 
-.container {
-    
+.containerweh{
+    justify-content: center;
     padding: 50px;
+	margin-left: 25px;
 }
 
-.subtitle, .notice, .note, .colors-title {
+.note {
     font-size: 18px;
     color: #A35C32;
-    margin: 5px 10px;
-}
-
-.colors-title {
-    margin-top: 30px;
-    margin-bottom: 20px;
-	padding: 10px;
+	text-align: center;
+  
 }
 
 .color-palette {
