@@ -519,7 +519,8 @@ body {
 }
 .container1{
 	text-align: center;
-	margin-right: 250px;
+	justify-content: center;
+	margin-right: 550px;
 }
 .block {
 	width: 180px;
