@@ -1,5 +1,6 @@
 body{
 	background-color: #d8b990;
+	text-align: center;
 }
 
 @-webkit-keyframes fall {
@@ -421,7 +422,14 @@ img {
 	color: #9C5B33;
 	margin-top: 5px;
 }
-
+.jao{
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 18px;
+	color: #9C5B33;
+	margin-top: 85px;
+}
 .title p {
 	color: #9C5B33;
 	margin: 30px 0 20px;
@@ -476,10 +484,10 @@ body {
 }
 
 .venue {
-	width: auto;
-	height: auto;
+	width: 100px;
+	height: 50x;
 	background-color: #B67E4D;
-	border-radius: 16px;
+	
 	text-align: center;
 	color: #fff;
 	padding: 8px;
@@ -489,6 +497,11 @@ body {
 .venue a {
 	text-decoration: none;
 	color: #fff;
+}
+.venue:hover{
+	border-radius: 10px;
+	width: 105px;
+	color: #080403;
 }
 
 .container {
