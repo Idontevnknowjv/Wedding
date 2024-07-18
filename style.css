@@ -594,7 +594,7 @@ a {
 }
 
 .container {
-    text-align: center;
+    
     padding: 50px;
 }
 
@@ -649,13 +649,18 @@ a {
 
 .section1 td {
     color: #5D2D15;
+	text-align: center;
 }
 
 .section1 ul {
     list-style-type: none;
     padding-left: 0;
 }
-
+.centers{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
@@ -675,6 +680,7 @@ a {
 
     .section1 {
         padding: 15px;
+		margin-right: 200px;
     }
 
     .section1 h2 {
@@ -688,7 +694,7 @@ a {
     }
 	.godparents {
         flex-direction: column;
-        align-items: left;
+        align-items: center;
     }
 	.section1 th, .section1 td {
         padding: 4px;
@@ -699,14 +705,11 @@ a {
     }
 	
 	.section1 table {
-		width: 80%; /* Adjust the width as necessary */
+		width: 50%; /* Adjust the width as necessary */
 		margin-right: 410px;
 		border-collapse: collapse;
 	}
-	.container1{
-		text-align: center;
-		margin-right: 100;
-	}
+
 
 
 @media (max-width: 480px) {
