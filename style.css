@@ -510,12 +510,12 @@ body {
 	color: #080403;
 }
 
-.container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	border-radius: 10px;
-	overflow: hidden;
-	
+.container1 {
+	display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
 }
 .container1{
 	text-align: center;
@@ -630,9 +630,9 @@ a {
 }
 
 .section1 table {
-	width: 80%; /* Adjust the width as necessary */
-    margin-left: 375px;
-    border-collapse: collapse;
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 .section1 th, .section1 td {
