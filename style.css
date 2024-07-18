@@ -515,9 +515,11 @@ body {
 	grid-template-columns: 1fr 1fr;
 	border-radius: 10px;
 	overflow: hidden;
+	
+}
+.container1{
 	text-align: center;
 }
-
 .block {
 	width: 180px;
 	height: 160px;
